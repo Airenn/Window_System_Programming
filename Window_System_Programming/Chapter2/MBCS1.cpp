@@ -6,12 +6,12 @@
 
 int main(void)
 {
-	char str[] = "ABCÇÑ±Û";
+	char str[] = "ABCí•œê¸€";
 	int size = sizeof(str);
 	int len = strlen(str);
 
-	printf("¹è¿­ÀÇ Å©±â : %d \n", size);
-	printf("¹®ÀÚ¿­ ±æÀÌ : %d \n", len);
+	printf("ë°°ì—´ì˜ í¬ê¸° : %d \n", size);
+	printf("ë¬¸ìì—´ ê¸¸ì´ : %d \n", len);
 
 	return 0;
 }

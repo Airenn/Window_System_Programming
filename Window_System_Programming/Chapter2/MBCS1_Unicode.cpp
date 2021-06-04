@@ -4,11 +4,11 @@
 int main(void)
 {
 	wchar_t str[] = L"ABC";
-	int size = sizeof(str); // sizeof´Â ÇÔ¼ö°¡ ¾Æ´Ï¶ó ¿¬»êÀÚÀÌ¹Ç·Î ¹è¿­ÀÇ Å©±â¸¦ Á¤È®ÇÏ°Ô °è»êÇØ ¹İÈ¯ÇØÁØ´Ù
-	int len = strlen(str); // strlen ÇÔ¼ö´Â  SBCS ±â¹İ ¹®ÀÚ¿­ ÇÔ¼ö¶ó À¯´ÏÄÚµå ¹®ÀÚ¿­ str Ã³¸® ºÒ°¡
+	int size = sizeof(str); // sizeofëŠ” í•¨ìˆ˜ê°€ ì•„ë‹ˆë¼ ì—°ì‚°ìì´ë¯€ë¡œ ë°°ì—´ì˜ í¬ê¸°ë¥¼ ì •í™•í•˜ê²Œ ê³„ì‚°í•´ ë°˜í™˜í•´ì¤€ë‹¤
+	int len = strlen(str); // strlen í•¨ìˆ˜ëŠ”  SBCS ê¸°ë°˜ ë¬¸ìì—´ í•¨ìˆ˜ë¼ ìœ ë‹ˆì½”ë“œ ë¬¸ìì—´ str ì²˜ë¦¬ ë¶ˆê°€
 
-	printf("¹è¿­ÀÇ Å©±â : %d \n", size);
-	printf("¹®ÀÚ¿­ ±æÀÌ : %d \n", len);
+	printf("ë°°ì—´ì˜ í¬ê¸° : %d \n", size);
+	printf("ë¬¸ìì—´ ê¸¸ì´ : %d \n", len);
 
 	return 0;
 }

@@ -5,7 +5,7 @@
 
 int main(void)
 {
-	char str[] = "�ѱ��Դϴ�";
+	char str[] = "한글입니다";
 	int i;
 
 	for (i = 0; i < 5; i++)
