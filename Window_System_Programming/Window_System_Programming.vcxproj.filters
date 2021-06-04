@@ -18,16 +18,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MBCS1.cpp">
+    <ClCompile Include="Chapter2\MBCS1.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
-    <ClCompile Include="MBCS2.cpp">
+    <ClCompile Include="Chapter2\MBCS1_Unicode.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
-    <ClCompile Include="MBCS1_Unicode.cpp">
+    <ClCompile Include="Chapter2\MBCS2.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
-    <ClCompile Include="WBCS1.cpp">
+    <ClCompile Include="Chapter2\WBCS1.cpp">
+      <Filter>소스 파일\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="WBCS2.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
   </ItemGroup>
