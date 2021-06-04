@@ -27,5 +27,8 @@
     <ClCompile Include="MBCS1_Unicode.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
+    <ClCompile Include="WBCS1.cpp">
+      <Filter>소스 파일\Chapter 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
