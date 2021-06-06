@@ -10,7 +10,7 @@ int main(void)
 	int size = sizeof(str);
 	int len = wcslen(str);
 
-	printf("배열의 크기 : %d \n", size);
+	wprintf(L"Array Size : %d \n", size);
 	wprintf(L"String Length : %d \n", len);
 	return 0;
 }

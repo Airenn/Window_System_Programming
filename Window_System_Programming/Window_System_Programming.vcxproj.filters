@@ -33,5 +33,20 @@
     <ClCompile Include="WBCS2.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
+    <ClCompile Include="WBCS4.cpp">
+      <Filter>소스 파일\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="WBCS3.cpp">
+      <Filter>소스 파일\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Winstring.cpp">
+      <Filter>소스 파일\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="MBCS_WBCS1.cpp">
+      <Filter>소스 파일\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="MBCS_WBCS2.cpp">
+      <Filter>소스 파일\Chapter 2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
