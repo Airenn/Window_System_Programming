@@ -16,8 +16,17 @@
     <Filter Include="소스 파일\Chapter 2">
       <UniqueIdentifier>{5591b887-652e-44d0-8b65-cd2d36f6659c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 3">
+      <UniqueIdentifier>{9911a780-dfda-4c8a-bb3b-bebe6a563b96}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Chapter2\MBCS_WBCS1.cpp">
+      <Filter>소스 파일\Chapter 2</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter2\MBCS_WBCS2.cpp">
+      <Filter>소스 파일\Chapter 2</Filter>
+    </ClCompile>
     <ClCompile Include="Chapter2\MBCS1.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
@@ -30,23 +39,32 @@
     <ClCompile Include="Chapter2\WBCS1.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
-    <ClCompile Include="WBCS2.cpp">
+    <ClCompile Include="Chapter2\WBCS2.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
-    <ClCompile Include="WBCS4.cpp">
+    <ClCompile Include="Chapter2\WBCS3.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
-    <ClCompile Include="WBCS3.cpp">
+    <ClCompile Include="Chapter2\WBCS4.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
-    <ClCompile Include="Winstring.cpp">
+    <ClCompile Include="Chapter2\Winstring.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
-    <ClCompile Include="MBCS_WBCS1.cpp">
-      <Filter>소스 파일\Chapter 2</Filter>
+    <ClCompile Include="PolymorphicType1.cpp">
+      <Filter>소스 파일\Chapter 3</Filter>
     </ClCompile>
-    <ClCompile Include="MBCS_WBCS2.cpp">
-      <Filter>소스 파일\Chapter 2</Filter>
+    <ClCompile Include="PolymorphicType2.cpp">
+      <Filter>소스 파일\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="GetLastError.cpp">
+      <Filter>소스 파일\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorStateChange.cpp">
+      <Filter>소스 파일\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPrmpt_One.cpp">
+      <Filter>소스 파일\Chapter 3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
