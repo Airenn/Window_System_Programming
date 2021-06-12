@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\Chapter 3">
       <UniqueIdentifier>{9911a780-dfda-4c8a-bb3b-bebe6a563b96}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter 4">
+      <UniqueIdentifier>{9f86a467-324b-40b6-bdab-c189be34c622}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Chapter2\MBCS_WBCS1.cpp">
@@ -51,20 +54,26 @@
     <ClCompile Include="Chapter2\Winstring.cpp">
       <Filter>소스 파일\Chapter 2</Filter>
     </ClCompile>
-    <ClCompile Include="PolymorphicType1.cpp">
+    <ClCompile Include="Chapter3\CommandPrmpt_One.cpp">
       <Filter>소스 파일\Chapter 3</Filter>
     </ClCompile>
-    <ClCompile Include="PolymorphicType2.cpp">
+    <ClCompile Include="Chapter3\ErrorStateChange.cpp">
       <Filter>소스 파일\Chapter 3</Filter>
     </ClCompile>
-    <ClCompile Include="GetLastError.cpp">
+    <ClCompile Include="Chapter3\GetLastError.cpp">
       <Filter>소스 파일\Chapter 3</Filter>
     </ClCompile>
-    <ClCompile Include="ErrorStateChange.cpp">
+    <ClCompile Include="Chapter3\PolymorphicType1.cpp">
       <Filter>소스 파일\Chapter 3</Filter>
     </ClCompile>
-    <ClCompile Include="CommandPrmpt_One.cpp">
+    <ClCompile Include="Chapter3\PolymorphicType2.cpp">
       <Filter>소스 파일\Chapter 3</Filter>
+    </ClCompile>
+    <ClCompile Include="AdderProcess.cpp">
+      <Filter>소스 파일\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="CreteProcess.cpp">
+      <Filter>소스 파일\Chapter 4</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
