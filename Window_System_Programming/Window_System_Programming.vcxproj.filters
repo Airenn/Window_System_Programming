@@ -69,10 +69,19 @@
     <ClCompile Include="Chapter3\PolymorphicType2.cpp">
       <Filter>소스 파일\Chapter 3</Filter>
     </ClCompile>
-    <ClCompile Include="AdderProcess.cpp">
+    <ClCompile Include="Chapter4\AdderProcess.cpp">
       <Filter>소스 파일\Chapter 4</Filter>
     </ClCompile>
-    <ClCompile Include="CreteProcess.cpp">
+    <ClCompile Include="Chapter4\Calculator.cpp">
+      <Filter>소스 파일\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter4\CommandPrmpt_Two.cpp">
+      <Filter>소스 파일\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter4\CreteProcess.cpp">
+      <Filter>소스 파일\Chapter 4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter4\WinSysDir.cpp">
       <Filter>소스 파일\Chapter 4</Filter>
     </ClCompile>
   </ItemGroup>
