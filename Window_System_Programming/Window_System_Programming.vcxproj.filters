@@ -19,8 +19,11 @@
     <Filter Include="소스 파일\Chapter 3">
       <UniqueIdentifier>{9911a780-dfda-4c8a-bb3b-bebe6a563b96}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Chapter 4">
+    <Filter Include="소스 파일\Chapter 5">
       <UniqueIdentifier>{9f86a467-324b-40b6-bdab-c189be34c622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter 6">
+      <UniqueIdentifier>{8df6081b-85de-4a26-b720-20593c4235c6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -69,20 +72,26 @@
     <ClCompile Include="Chapter3\PolymorphicType2.cpp">
       <Filter>소스 파일\Chapter 3</Filter>
     </ClCompile>
-    <ClCompile Include="Chapter4\AdderProcess.cpp">
-      <Filter>소스 파일\Chapter 4</Filter>
+    <ClCompile Include="Chapter6\Operation1.cpp">
+      <Filter>소스 파일\Chapter 6</Filter>
     </ClCompile>
-    <ClCompile Include="Chapter4\Calculator.cpp">
-      <Filter>소스 파일\Chapter 4</Filter>
+    <ClCompile Include="Chapter5\AdderProcess.cpp">
+      <Filter>소스 파일\Chapter 5</Filter>
     </ClCompile>
-    <ClCompile Include="Chapter4\CommandPrmpt_Two.cpp">
-      <Filter>소스 파일\Chapter 4</Filter>
+    <ClCompile Include="Chapter5\Calculator.cpp">
+      <Filter>소스 파일\Chapter 5</Filter>
     </ClCompile>
-    <ClCompile Include="Chapter4\CreteProcess.cpp">
-      <Filter>소스 파일\Chapter 4</Filter>
+    <ClCompile Include="Chapter5\CommandPrmpt_Two.cpp">
+      <Filter>소스 파일\Chapter 5</Filter>
     </ClCompile>
-    <ClCompile Include="Chapter4\WinSysDir.cpp">
-      <Filter>소스 파일\Chapter 4</Filter>
+    <ClCompile Include="Chapter5\CreteProcess.cpp">
+      <Filter>소스 파일\Chapter 5</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter5\WinSysDir.cpp">
+      <Filter>소스 파일\Chapter 5</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\Operation2.cpp">
+      <Filter>소스 파일\Chapter 6</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
