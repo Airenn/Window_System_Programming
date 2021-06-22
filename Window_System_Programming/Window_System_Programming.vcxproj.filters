@@ -93,5 +93,20 @@
     <ClCompile Include="Chapter6\Operation2.cpp">
       <Filter>소스 파일\Chapter 6</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter6\KerObjShare.cpp">
+      <Filter>소스 파일\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\KernelObjProb1.cpp">
+      <Filter>소스 파일\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\KernelObjProb2.cpp">
+      <Filter>소스 파일\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\OperationStateParent.cpp">
+      <Filter>소스 파일\Chapter 6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter6\OperationStateChild.cpp">
+      <Filter>소스 파일\Chapter 6</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
