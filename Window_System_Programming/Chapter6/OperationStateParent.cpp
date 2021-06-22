@@ -34,8 +34,8 @@ int _tmain(int argc, TCHAR* argv[])
 	//for (DWORD i = 0; i < 10000; i++) // Child Process의 우선종료를 위해
 		//for (DWORD i = 0; i < 100000; i++);
 
-	WaitForSingleObject(pi.hProcess, INFINITE);
-
+	// WaitForSingleObject(pi.hProcess, INFINITE); // 주석 처리시 자식 프로세스가 끝나지 않아 STILL_ACTIVE
+																	// 주석 해제시 자식 프로세스 끝날 때 까지 기다리고 GetExitCodeProcess에서 리턴값 반환
 	GetExitCodeProcess(pi.hProcess, &state);
 	if (state == STILL_ACTIVE)
 		_tprintf(_T("STILL_ACTIVE \n\n"));
